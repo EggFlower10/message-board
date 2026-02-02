@@ -1,0 +1,23 @@
+{
+  "id": "5120615",
+  "name": "小程序",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1240740",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10937697",
+      "name": "赞",
+      "font_class": "good",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}

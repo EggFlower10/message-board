@@ -3,7 +3,6 @@
   <div class="pc-guide">
     <div class="guide-content">
       <h1>请在手机端浏览</h1>
-      <p>本留言板优先适配手机端体验，建议用手机打开查看哦～</p>
       <van-button type="primary" @click="goBack" class="back-btn">返回</van-button>
     </div>
   </div>

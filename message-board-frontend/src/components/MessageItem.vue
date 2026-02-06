@@ -6,12 +6,12 @@
       <div class="text">{{ item.content }}</div>
       <div class="meta">
         <span class="location">{{ item.location }}</span>
-        <span class="time">{{ item.time }}</span>
+        <span class="time">{{ item.time  }}</span>
       </div>
     </div>
     <div class="like-btn" @click="$emit('like', item.id)">
-      <span :class="['like-count', item.isLiked ? 'liked' : '']">{{ item.likeCount }}</span>
-      <span :class="['like-icon', item.isLiked ? 'liked' : '']"><svg class="like-icon1" aria-hidden="true">
+      <span :class="['like-count', item.is_liked ? 'liked' : '']">{{ item.like_count }}</span>
+      <span :class="['like-icon', item.is_liked ? 'liked' : '']"><svg class="like-icon1" aria-hidden="true">
   <use xlink:href="#icon-good"></use>
 </svg></span>
     </div>
@@ -43,8 +43,6 @@ width: 62px;
 height: 60px;
 opacity: 1;
 border-radius: 1000px;
-/* background: url(https://img.js.design/assets/img/69779dc6d3013295f86eb87d.png#5bc01a844abeaaf5af796e119858abcd); */
-
   border: 1px solid rgba(0, 0, 0, 1);
 }
 
@@ -73,6 +71,11 @@ color: rgba(51, 51, 51, 1);
 text-align: left;
 vertical-align: top;
   margin-bottom: 20px;
+  white-space: normal;
+  word-wrap: break-word; 
+  word-break: break-all; 
+  overflow-wrap: break-word; 
+  max-width: 100%; 
 }
 
 .meta {

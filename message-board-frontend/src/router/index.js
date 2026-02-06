@@ -17,7 +17,7 @@ const routes = [
         path: '/pc-guide',
         name: 'PcGuide',
         component: PcGuide // PC 端引导页
-    }
+    },
 ]
 
 const router = createRouter({
